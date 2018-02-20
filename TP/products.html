@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+	<meta name="author" content="Jonathan Fung">
+	<link rel="stylesheet" media="all" type="text/css" href="css/styles.css" />
+	<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+
+
+
+	<title> Wallets </title>
+</head>
+
+<body>
+	<div id="top_row">
+		<header>
+			<nav>
+				<a href="index.html"> Home </a>
+				<a href="about.html"> About Us </a>
+				<a href="products.html"> Products </a>
+				<a href="form.html"> Custom Wallets </a>
+				<a href="locations.html"> Locations </a>
+			</nav>
+		</header>
+	</div>
+	<div id="body">
+		<div id="quiz_header">
+			<a href="form.html"> <img src="images/custom_wallet.jpg"></a>
+
+		</div>
+		<br>
+		<div id="product">
+			<div class="tab">
+			  <button class="tablinks" onclick="openWallet(event, 'Men')"><h1>Men's Wallets</h1><img src="images/men_wallet.jpg"></button>
+			  <button class="tablinks" onclick="openWallet(event, 'Women')"><h1>Women's Wallets</h1><img src="images/women_wallet.jpg"></button>
+			  <button class="tablinks" onclick="openWallet(event, 'Card')"><h1>Cards and $ Clips</h1><img src="images/Card.jpg"></button>
+			  <button class="tablinks" onclick="openWallet(event, 'Rfid')"><h1>Rfid Wallets</h1><img src="images/rfid_wallet.jpg"></button>
+			  <button class="tablinks" onclick="openWallet(event, 'Travel')"><h1>Travel Wallets</h1><img src="images/traveler.jpg"></button>
+			</div>
+
+			<div id="Men" class="tabcontent">
+			 	<table border="width:3">
+					<tr>
+						<td class="picture"><a href="wallet_info.html"><img src="images/wallet1.jpg"></a><br></td>
+						<td class="picture"><img src="images/blue_wallet.jpg"></td>
+						<td class="picture"><img src="images/black_wallet.jpg"></td>
+					</tr>
+					<tr>
+						<td class="info"><h4> RFID BLOCKING BIFOLD WALLET <br> $26.95 </h4></td>
+						<td class="info"><h4> COMPACT SPORTS WALLET <br> $21.50 </h4></td>
+						<td class="info"><h4> WORLD BIFOLD WALLET <br> $26.95 </h4></td>
+					</tr>
+				</table>
+			
+			</div>
+
+			<div id="Women" class="tabcontent">
+			  <table border="width:3">
+					<tr>
+						<td class="picture"><a href="wallet_info.html"><img src="images/womenB.jpg"></a><br></td>
+						<td class="picture"><img src="images/blue_wallet.jpg"></td>
+						<td class="picture"><img src="images/black_wallet.jpg"></td>
+					</tr>
+					<tr>
+						<td class="info"><h4> WOMEN WALLET <br> $26.95 </h4></td>
+						<td class="info"><h4> COMPACT SPORTS WALLET <br> $21.50 </h4></td>
+						<td class="info"><h4> WORLD BIFOLD WALLET <br> $26.95 </h4></td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="Card" class="tabcontent">
+			  	<table border="width:3">
+					<tr>
+						<td class="picture"><a href="wallet_info.html"><img src="images/newyorker.jpg"></a><br></td>
+						<td class="picture"><img src="images/blue_wallet.jpg"></td>
+						<td class="picture"><img src="images/black_wallet.jpg"></td>
+					</tr>
+					<tr>
+						<td class="info"><h4> CARD HOLDER <br> $26.95 </h4></td>
+						<td class="info"><h4> COMPACT SPORTS WALLET <br> $21.50 </h4></td>
+						<td class="info"><h4> WORLD BIFOLD WALLET <br> $26.95 </h4></td>
+					</tr>
+				</table>
+			</div>
+			<div id="Rfid" class="tabcontent">
+			  <table border="width:3">
+					<tr>
+						<td class="picture"><a href="wallet_info.html"><img src="images/bigrfid.jpg"></a><br></td>
+						<td class="picture"><img src="images/blue_wallet.jpg"></td>
+						<td class="picture"><img src="images/black_wallet.jpg"></td>
+					</tr>
+					<tr>
+						<td class="info"><h4> RFID WALLET <br> $26.95 </h4></td>
+						<td class="info"><h4> COMPACT SPORTS WALLET <br> $21.50 </h4></td>
+						<td class="info"><h4> WORLD BIFOLD WALLET <br> $26.95 </h4></td>
+					</tr>
+				</table>
+			</div>
+			<div id="Travel" class="tabcontent">
+			  <table border="width:3">
+					<tr>
+						<td class="picture"><a href="wallet_info.html"><img src="images/big_travel.jpg"></a><br></td>
+						<td class="picture"><img src="images/blue_wallet.jpg"></td>
+						<td class="picture"><img src="images/black_wallet.jpg"></td>
+					</tr>
+					<tr>
+						<td class="info"><h4> TRAVELERS WALLET <br> $26.95 </h4></td>
+						<td class="info"><h4> COMPACT SPORTS WALLET <br> $21.50 </h4></td>
+						<td class="info"><h4> WORLD BIFOLD WALLET <br> $26.95 </h4></td>
+					</tr>
+				</table>
+			</div>
+			
+		</div>	
+	</div>
+</body>
+<footer>
+    <div class="container-fluid">
+        <br>
+        <br>
+            <div class="row" id="social-media">
+                <div class="col-md-12">
+              <a href="https://www.facebook.com/bigskinny/"><img src="images/facebook.png"></img></a>
+              <a href="https://twitter.com/Big_Skinny?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.png"></a>
+              <a href="https://www.instagram.com/bigskinnywallets/?hl=en"><img src="images/instagram.png"></a>
+            </div>
+            </div>
+
+            <div id="trademark">
+            <h4>©2017-2018 Big Skinny. All Rights Reserved</h4>
+            <br>
+        </div>
+    </div>
+
+</footer>

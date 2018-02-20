@@ -1,0 +1,325 @@
+@font-face {
+	font-family: myFont;
+	src: url("HelveticaNeue-Thin.otf");
+}
+
+body {
+	font-family: myFont;
+	font-size: 100%;
+	line-height: 1.7em;
+	background: white;
+}
+
+/* Top Tab Row*/
+#top_row {	
+	border-bottom: 1px dotted #cccccc;
+	height: 20px;
+	width: 100%;
+	background: white;
+	padding-bottom: 47px;
+	margin-bottom: 20px;
+	
+
+}
+
+#top_row nav {
+	text-align: center;
+	padding-top: 7px;
+
+	background-color: white;
+
+}
+
+#top_row nav a {
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 400;
+	padding: 30px;
+	color: #000000;
+}
+
+#top_row nav a:hover {
+	background: #f6f6f6;
+	color: blue;
+	font-weight: bold;
+	padding-bottom: 18px;
+}
+
+#slogan h1 {
+	margin-right: 6em;
+	float: right;
+
+}
+
+#slogan img{
+	margin-left: 13em;
+	width: 10%;
+}
+
+#container-video iframe {
+	width: 700px;
+	height: 400px;
+	margin-left: 21em;
+}
+/* Slideshow taken from W3Schools*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+	width:80%;
+	
+	
+	margin: auto;
+}
+
+.slideshow-container div {
+
+	width:100%;
+	margin: 30px auto;
+
+}
+.slideshow-container img {
+	width:auto;
+	height:500px;
+}
+.mySlides {
+	display: none;
+}
+
+.video{
+  text-align:center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor:pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+#bottom-row {
+
+	float:left;
+	clear:left;
+
+	width:100vw;
+	height:auto;
+	background-color:#fff;
+	margin-top:30px;
+
+}
+
+body> section > .container > .row > .col-md-12>h1{
+    font-size: 6em;
+    font-weight:bolder;
+    
+}
+
+/* quiz header for product page */
+
+#quiz_header {
+	background-color: white;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+#quiz_header img {
+	width: 100%;
+}
+
+/* product table */
+
+.tab{
+	margin-left: 7em;
+}
+
+.tab button {
+	width: 18%;
+}
+
+.tab h1 {
+	font-family: myFont;
+}
+
+#product table {
+	margin-left: 17em;
+	width: 50em;
+	background: white;
+	border-spacing: 20px;
+}
+
+#product img {
+	width: 100%;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.info {
+	border-style: none;
+}
+
+/* wallet_info */
+
+#wallet_header h1 {
+	color: red;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+#wallet_header img {
+	float: left;
+	margin-top: 5px;
+	margin-left: 200px;
+	border: 3px dotted gray;
+}
+
+#info {
+	margin-left: 840px;
+	margin-top: 25px;
+	
+}
+
+#info img{
+	width: 150px;
+}
+
+#addcart {
+	margin-left: 45px;
+
+}
+
+#info_block p {
+	margin-left: 13.8em;
+	margin-right: 10em;
+	font-size: 90%;
+}
+
+/* ABOUT US PAGE */
+#main_body h1 {
+	font-size: 350%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#main_body h2 {
+	font-size: 250%;
+}
+
+#main_body h2,h3 {
+	text-align: center;
+}
+
+.description {
+	border: 1px dotted gray;
+	text-align: center;
+}
+
+.description img{
+	margin-top: -1em;
+}
+
+footer {
+
+	float:left;
+	clear:left;
+
+	width:100vw;
+	height:auto;
+	background-color:white;
+
+}
+
+body section .container .row .col-md-12 h1 {
+
+    font-size: 6em;
+    font-weight:bolder;
+    
+}
+
+/*Styling the footer and social media*/
+footer div.container-fluid {
+    background-color: white;
+}
+
+footer div.container-fluid div.row ul li a {
+    color:white;
+    text-align: center;
+    display:inline-block;
+}
+footer div.container-fluid div.row ul li {
+    margin: auto;
+    align-content: center;
+    font-size: 1em;
+}
+
+footer div.container-fluid div.row ul {
+    text-align: center;
+}
+
+footer div.container-fluid div.row ul li a {
+    border-left-style:groove;
+    border:1em;
+}
+footer div.container-fluid #social-media div {
+    /*position:relative;*/
+    border:2em;
+    margin:0,auto;
+}
+footer div.container-fluid #social-media div.col-md-12 a img {
+    display:inline-block;
+    
+    margin-right:1em;
+    width:2%;
+    height:10%;
+}
+footer div.container-fluid #social-media div.col-md-12 {
+    text-align: center;
+    position:relative;
+}
+
+footer div.container-fluid #trademark {
+    text-align: center;
+    margin-top: -22px;
+}
+footer div.container-fluid #trademark h4,
+footer div.container-fluid #trademark p {
+    color:#595959;
+}
+
+
+
+
+
